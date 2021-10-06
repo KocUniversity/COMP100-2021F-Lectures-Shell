@@ -6,16 +6,23 @@ We want to teach you how to make the most of the tools you know, show you new to
 
 ## What is the shell?
 
-Old-school textual interface to your computer: the shell.
+1. **Terminal**: Old-school textual interface to your computer. Think of it as a device through which one interacts with a computer, typically with a keyboard and display. Available almost on all platforms.
 
-* Available almost on all platforms 
-* Several shells
-* For the same purpose: to run programs, give them input, and check their output.
+  **Why?** to run programs, give them input, and check their output.
 
-**Bourne Again SHell** or "**bash**" in short
+2. **Console**: Physical terminal directly connected to a machine. On Linux, the console appears as several terminals (ttys numbered), and you can switch between them.
+
+  **Command line**: An interface where the user types a command (which is expressed as a sequence of characters — typically a command name followed by some parameters) and presses the Return key to execute that command.
+
+3. **Shell**: Command line interpreter to run programs.
+There are many different unix shells. Ubuntu's default shell is [Bash](http://en.wikipedia.org/wiki/Bash_(Unix_shell)) (like most other Linux distributions). Popular alternatives include [zsh](http://en.wikipedia.org/wiki/Zsh) (which emphasizes power and customizability) and [fish](http://en.wikipedia.org/wiki/Friendly_interactive_shell) (which emphasizes simplicity).
+
+We will be using the most common **Bourne Again SHell** or "**bash**" in short, to access it:
 * Open the terminal on your computer (you can install it if not available).
 or 
-* Go to Shell tab on repl.it and type `$SHELL`.
+* Go to Shell tab on repl.it and type `$SHELL` to get a user's shell.
+
+If you want to learn more about this: [a great post] (https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line).
 
 ## What do we see?
 
@@ -105,6 +112,10 @@ This means, when you type `echo $PATH`, what is executed actually is the followi
 * Most commands accept flags and options (flags with values) that start with `-` to modify their behavior. Usually, running a program with the `-h` or `--help` flag will print some help text that tells you what flags and options are available. For example, type the following to learn about the flags and options for `ls`:
 
 `ls --help`
+
+* Or you can find them online. GNU provides links to its [manuals](http://www.gnu.org/manual/manual.html) including the core [GNU utilities](http://www.gnu.org/software/coreutils/manual/coreutils.html), which covers many commands introduced within this lesson.
+
+  **GNU:** An extensive collection of free software, which can be used as an operating system or can be used in parts with other operating systems. The use of the completed GNU tools led to the family of operating systems popularly known as Linux.
 
 ## Permissions
 
